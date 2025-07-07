@@ -1,13 +1,15 @@
 // Importações: libs, estilos e ícones que vão ser usados no app
 import React from "react";
-import photoSvg from './assets/photo.svg';
+import photoSvg from "./assets/photo.svg";
 import html2pdf from "html2pdf.js";
 import { createGlobalStyle } from "styled-components";
 import { Image } from "primereact/image";
 import { Button } from "primereact/button";
+import { Tooltip } from "primereact/tooltip";
 import "primereact/resources/themes/lara-light-blue/theme.css";
 import "primeflex/themes/primeone-light.css";
 import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";
 import "primeflex/primeflex.css";
 
 // Estilos globais
@@ -98,7 +100,7 @@ const App = () => {
       {
         icon: "ti-database",
         name: "Banco de Dados",
-      }
+      },
     ],
   };
 
@@ -141,7 +143,7 @@ const App = () => {
 
   // Define o favicon da aba do navegador
   const href = document.querySelector("link[rel*='icon']"),
-        ext  = profileData.photo.split(".").pop().toLowerCase();
+    ext = profileData.photo.split(".").pop().toLowerCase();
 
   const mimeSubtypes = {
     svg: "svg+xml",
@@ -426,15 +428,23 @@ const App = () => {
               {/* Contatos */}
               <div className="flex flex-row md:flex-column justify-content-center gap-3 font-light text-center md:text-right">
                 {profileData.content.map((item, index) => (
-                  <div key={index} className="flex align-items-center gap-2">
+                  <div
+                    key={index}
+                    className="flex align-items-center gap-2 tooltip"
+                    data-pr-tooltip={item.name}
+                    data-pr-position="top"
+                    aria-label={item.name} // acessibilidade
+                  >
                     <i
                       className={`${item.icon.split("-")[0]} ${
                         item.icon
-                      } text-3x1 md:text-xl`}
+                      } text-xl cursor-pointer`}
                     ></i>
+                    {/* texto só visível em desktop */}
                     <span className="hidden md:block">{item.name}</span>
                   </div>
                 ))}
+                <Tooltip target=".tooltip" className="block md:hidden p-2" />
               </div>
             </div>
           </div>
