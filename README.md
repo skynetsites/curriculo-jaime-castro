@@ -35,7 +35,11 @@ npm install
 npm start
 ```
 
-O app será executado em http://localhost:3000.
+4. Você verá um endereço local parecido com:
+
+VITE v7.0.1 ready in 2933 ms
+
+➜ Local: http://localhost:5173/
 
 ## 🧑‍💻 Autor
 
