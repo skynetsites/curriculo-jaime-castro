@@ -1,76 +1,47 @@
 # Curriculum Vitae — Jaime Castro
 
----
+Este é um projeto de Curriculum Vitae online desenvolvido com **React**, utilizando **HTML**, **CSS** e **JavaScript**, com o objetivo de apresentar de forma moderna e responsiva as informações profissionais de **Jaime Castro**.
 
-## 👋 Olá, eu sou
+## ✨ Funcionalidades
 
-# Jaime Castro
+- 📄 Exibição de dados pessoais, formação, experiência e habilidades
+- 📱 Layout responsivo (mobile e desktop)
+- 🌐 Componentização com React
+- 🎨 Estilização com CSS moderno (Flexbox e/ou Grid)
+- 🌓 Suporte a tema claro/escuro (opcional)
 
-### Engenheiro de Software
+## 🛠️ Tecnologias Utilizadas
 
-📞 **Telefone:** +55 12 3456-7890  
-📧 **Email:** [jaimecastro@mail.com](mailto:jaimecastro@mail.com)  
-🌐 **GitHub:** [github.com/jaimecastro](https://github.com/jaimecastro)  
-📍 **Localização:** São Paulo - SP
+- [React](https://reactjs.org/)
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- [Vite](https://vitejs.dev/) ou [Create React App](https://create-react-app.dev/) (dependendo da build usada)
 
----
 
-## 📝 Sobre mim
+## 🚀 Como Rodar Localmente
 
-Apaixonado por desafios, estou em constante busca pela excelência no desenvolvimento web. Sou comprometido em criar soluções eficazes e inovadoras. Trabalho bem em equipe e sou orientado para gerar resultados.
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/curriculo-jaime-castro.git
+cd curriculo-jaime-castro
 
----
+```bash
+npm install
 
-## 🎓 Formação Acadêmica
+```bash
+npm start
 
-**Engenharia de Software**  
-_Especialização, 2019 - 2021_  
-Universidade Borcelle
+O app será executado em http://localhost:3000
 
-**Design Gráfico**  
-_Graduação, 2014 - 2018_  
-Universidade Hanover e Tavares
+## 🧑‍💻 Autor
 
----
+Isaias Oliveira
+[LinkedIn]((https://www.linkedin.com/in/skynetsites/))
 
-## 💻 Habilidades
+##  📄 Licença
 
-- Desenvolvimento Web
-- Gerenciamento de Projetos
-- Principais Linguagens de Programação
-- Banco de Dados
+Este projeto está licenciado sob a MIT License.
 
----
 
-## 💼 Experiência Profissional
 
-### Desenvolvedor Sênior  
-**Borcelle, 2021 - 2023**  
-- Desenvolvimento de plataformas para web e mobile usando tecnologias front-end e back-end.
-
----
-
-### Engenheiro de Software  
-**Faustino, 2019 - 2020**  
-- Projeto e desenvolvimento de sistemas escaláveis de gerenciamento de dados para diversos clientes.
-
----
-
-### Gerente de Projetos  
-**Pense S.A., 2019**  
-- Coordenação e liderança de equipes de desenvolvimento em projetos com foco no cumprimento de prazos.
-
----
-
-### Desenvolvedor  
-**Hanover e Tavares, 2018**  
-- Desenvolvimento de lógica de servidor robusta e eficiente para otimização de consultas de banco de dados.
-
----
-
-### Engenheiro de Software  
-**Borcelle, 2017**  
-- Suporte ao desenvolvimento de novos recursos para aplicativos de alto tráfego.
-- Resolução de problemas.
-
----
