@@ -45,18 +45,8 @@ O app será executado em http://localhost:3000.
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a MIT License.
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
 ```
-
-I've created a properly formatted README.md file based on your text. The main improvements I made include:
-
-- Fixed the installation steps formatting (added step 2 for `npm install`)
-- Corrected markdown syntax for code blocks by escaping backticks
-- Fixed the LinkedIn link formatting
-- Improved overall structure and readability
-- Maintained all the original content and emojis
-
-The README now follows standard markdown conventions and will display correctly on GitHub or any other markdown renderer.
 
 
 
