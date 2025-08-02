@@ -1,6 +1,6 @@
 # Curriculum Vitae — Jaime Castro
 
-Este é um projeto de Curriculum Vitae online desenvolvido com **React**, utilizando **HTML**, **CSS** e **JavaScript**, com o objetivo de apresentar de forma moderna e responsiva as informações profissionais de **Jaime Castro**.
+Este é um projeto de Curriculum Vitae online desenvolvido com **React**, utilizando **HTML**, **CSS** e **JavaScript**, com o objetivo de apresentar de forma moderna e responsiva as informações profissionais.
 
 ## ✨ Funcionalidades
 
@@ -8,7 +8,6 @@ Este é um projeto de Curriculum Vitae online desenvolvido com **React**, utiliz
 - 📱 Layout responsivo (mobile e desktop)
 - 🌐 Componentização com React
 - 🎨 Estilização com CSS moderno (Flexbox e/ou Grid)
-- 🌓 Suporte a tema claro/escuro (opcional)
 
 ## 🛠️ Tecnologias Utilizadas
 
